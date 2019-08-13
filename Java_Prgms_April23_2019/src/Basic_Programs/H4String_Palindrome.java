@@ -6,7 +6,7 @@ public class H4String_Palindrome
 	public static void main(String[] args)
 	{
 
-		String g ="Civic";
+		String g ="abCivicba";
 		String s =g.toUpperCase();
 		Boolean palin =false;
 		int n =s.length();

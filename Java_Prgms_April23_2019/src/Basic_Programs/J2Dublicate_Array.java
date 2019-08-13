@@ -8,7 +8,7 @@ public class J2Dublicate_Array
 
 	public static void main(String[] args) 
 	{
-		int [] a = {10,20,5,10,6,3,1,6,3};
+		int [] a = {10,3,20,5,10,6,3,1,6,3};
 		ArrayList<Integer> b = new ArrayList<Integer>();
 		int n = a.length;
 		
@@ -20,7 +20,10 @@ public class J2Dublicate_Array
 				
 				if(a[i]==a[j])
 				{
-					b.add(a[i]);
+					if(!b.contains(a[i]))
+					{
+						b.add(a[i]);
+					}
 				}
 			}			
 		}

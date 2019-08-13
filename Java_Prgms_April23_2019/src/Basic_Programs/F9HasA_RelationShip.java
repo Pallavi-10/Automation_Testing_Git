@@ -26,7 +26,7 @@ public class F9HasA_RelationShip
 	{
 		person p = new person();
 		p.takemobile();
-		p.m.docall(); // has a relationship where object is user through object to call a method of a class
+		p.m.docall(); // has a relationship where object is used through object to call a method of a class
 	
 
 	}
