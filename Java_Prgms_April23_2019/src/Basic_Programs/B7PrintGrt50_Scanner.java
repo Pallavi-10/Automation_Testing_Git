@@ -10,6 +10,7 @@ public class B7PrintGrt50_Scanner
 		Scanner s = new Scanner (System.in);
 		System.out.println("Enter list of numbers");
 		int n =0;
+		
 		for(;s.hasNextInt();n=s.nextInt())
 		{
 

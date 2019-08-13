@@ -10,7 +10,9 @@ public class J7MaxdigitOccured
 		int a[] = {1,3,1,4,9,4,1,4,1,3,20,9,6,1};
 		int max=0;
 		ArrayList<Integer> o = new ArrayList<Integer>();
-		int max2=0;
+		
+		int p=0;
+		int q=1;
 		for(int m=0;m<a.length;m++)
 		{
 			if(a[m]>max)
@@ -36,17 +38,15 @@ public class J7MaxdigitOccured
 		        
 		        if(count>0)
 		        {
-		        	if(count>max2)
-		        	{
-		        		max2=count;
-		        		o.clear();
-		        		o.add(0,i);
-		        		o.add(1,max2);
-		        	}
+		        	
+		        	//o.clear();
+		        		o.add(p,i);
+		        		o.add(q,count);
+		        		p=p+2;
+		        		q=q+2;
 		        }
 
 	}
-
 		    for(int pal:o)
 			{
 				System.out.print(pal);

@@ -17,7 +17,7 @@ public class C8Switch_Statmnt
 		case ('u'):System.out.println("It is a vowel");
 		break;
 		case 1: System.out.println("Hello how are u ?");
-		break;
+	break;
 		default:System.out.println("It is a constant");
 		
 		}
