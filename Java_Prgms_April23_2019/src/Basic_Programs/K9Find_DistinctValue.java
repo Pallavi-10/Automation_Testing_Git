@@ -2,7 +2,7 @@ package Basic_Programs;
 
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Set;
+
 
 public class K9Find_DistinctValue
 {
@@ -36,7 +36,7 @@ public class K9Find_DistinctValue
 						b.add(a.get(i));
 					}
 				}
-			}	//comment for git	
+			}	//comment for git$git 	
 			System.out.println(b);
 			
 			a.removeAll(b);//remove all of collections of b from a 
